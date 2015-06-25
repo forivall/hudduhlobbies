@@ -7,3 +7,15 @@
 meteor-platform
 autopublish
 insecure
+mquandalle:jade
+mquandalle:stylus
+semantic:ui-css
+semantic:ui
+kidovate:accounts-steam
+grigio:babel
+meteorhacks:npm
+
+
+npm-container
+kidovate:steam
+iandouglas:accounts-ui-semantic-ui

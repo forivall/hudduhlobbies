@@ -1,0 +1,31 @@
+head
+  title Hudduh.tf - lobbies
+
+body
+  header
+    +loginButtons
+    if currentUser
+      button.ui.button.mini.update-profile Update Name
+  
+  button.ui.button.create-lobby Create New Lobby
+  
+  +createLobbyForm
+  
+
+template(name='login')
+  
+template(name='lobbyList')
+  
+template(name='lobbyHighlander')
+  
+template(name='createLobbyForm')
+  #create-lobby.ui.modal
+    i.close.icon
+    .header Create Lobby
+    .content
+      .image yay
+      .description
+        | butts
+    .actions
+      .ui.button Cancel
+      .ui.button Create

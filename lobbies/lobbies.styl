@@ -1,0 +1,25 @@
+/* CSS declarations go here */
+@import 'jeet'
+
+
+#login-buttons
+  display: inline-block
+  #login-buttons-steam
+    &.ui.labeled.icon.button
+      padding: .5em
+      padding-left: .5em !important
+      padding-right: .5em !important
+    #login-buttons-image-steam
+      background-image: url("/sits_small.png")
+      width: 154px
+      height: 23px
+      position: static
+
+    .text-besides-image.sign-in-text-steam
+      display: none
+
+    &.login-button
+      &, &:hover
+        background-color: transparent
+        border: 0
+      line-height: 1
